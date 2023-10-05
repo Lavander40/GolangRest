@@ -1,0 +1,4 @@
+bind_addr = ":6070"
+log_level = "debug"
+[store]
+database_url = "root:root@tcp(localhost:3306)/golang_users?multiStatements=true"
